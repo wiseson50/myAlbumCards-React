@@ -1,5 +1,40 @@
-.App {
+/* .App {
   text-align: center;
+  display: flex;
+} */
+.row{
+  display: grid ;
+  
+  background-color: red;
+  grid-template-columns: repeat(6, auto);
+  
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  
+
+  margin: 20px auto auto auto;
+  
+  
+  
+}
+.card{
+ 
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 15vw;
+  padding: 1rem 0.5rem;
+  position: relative;
+}
+.pagination a{
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 
 .App-logo {
